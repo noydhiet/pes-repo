@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/id_menu" android:checkableBehavior="all">
+        <item
+            android:id="@+id/home"
+            android:title="HOME"
+            android:menuCategory="container"
+            />
+        <item
+            android:id="@+id/listevent"
+            android:title="LIST EVENT"
+            android:menuCategory="container"
+            />
+        <item
+            android:id="@+id/ranking"
+            android:title="RANKING"
+            android:menuCategory="container"
+            />
+        <item
+            android:id="@+id/profile"
+            android:title="PROFILE"
+            android:menuCategory="container"
+            />
+    </group>
+
+
+    <group android:id="@+id/id_pendaftaran" >
+            <item android:id="@+id/login"
+                android:title="LOGIN"
+                android:menuCategory="container">
+            </item>
+            <item android:id="@+id/sign_up"
+                android:title="SIGN UP"
+                android:menuCategory="container">
+            </item>
+    </group>
+
+
+</menu>
